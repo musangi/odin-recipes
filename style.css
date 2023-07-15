@@ -2,11 +2,15 @@
     * {
         line-height: 1.5;
         /* outline: 1px dotted darkorange; */
-        margin: 20px auto;
+        /* background-color: blueviolet; */
+        /* margin: 20px auto; */
+        width: 380px;
+        /* display: inline-block; */
     }
 
     body {
         font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque; 
     }
     img {
         width: 200px;
@@ -14,6 +18,19 @@
 
     ul {
         list-style: none;
+        
+    }
+    .container{
+        background-color: azure;
+        width: 550px;
+        display: inline-block;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow: auto;
+        max-height: 100vh;
     }
 
     h1 {
@@ -28,7 +45,11 @@
 
     .row {
         padding: 5px 50px 5px 50px;
-        margin: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .ingredients, .description, .steps{
+        margin-left: 20px;
     }
 
     p{
@@ -40,4 +61,14 @@
         padding: 10px 12px 10px 12px;
     }
 
+    span.highlight{
+        background-color: lightpink;
+        color: darkred;
+        padding: 0 3px;
+        margin: 0 -3px;
+    }
+
+    /* .display{
+        display: inline-block;
+    } */
 /* </style> */
